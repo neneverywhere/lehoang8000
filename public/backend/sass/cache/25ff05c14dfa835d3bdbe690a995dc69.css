@@ -1,0 +1,506 @@
+/* compiled by scssphp v0.3.3 on Wed, 11 Jan 2017 11:49:51 +0700 (0.0966s) */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&subset=vietnamese');
+/* line 12, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 14px;
+  color: #424242;
+}
+/* line 18, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+a {
+  text-decoration: none !important;
+}
+/* line 23, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+.row {
+  margin: 0 !important;
+}
+/* line 27, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+.hoverable:hover, header .top .back-home a:hover, .content .list-news-catalog .panel-heading .pull-right a:hover, .content .list-news-catalog .add-news-catalog form .iframe-btn:hover, .content .list-news-catalog .add-news-catalog form .addgal:hover, .content .list-news-catalog .add-news-catalog form .removegal:hover, .content .list-slideshow .panel-heading .pull-right a:hover, .content .list-menu .panel-heading .pull-right a:hover, .content .list-config .panel-heading .pull-right a:hover, .content .list-seo .panel-heading .pull-right a:hover, .content .list-intro .panel-heading .pull-right a:hover, .content .list-contact .panel-heading .pull-right a:hover, .content .iframe-btn:hover, .gallery .add-gallery button:hover, .gallery .add-gallery .addgal:hover, .gallery .add-gallery .removegal:hover, .LoadMore a:hover {
+  box-shadow: 0 16px 28px 0 rgba(0, 0, 0, 0.22), 0 25px 55px 0 rgba(0, 0, 0, 0.21);
+  transition: 0.2s;
+}
+/* line 32, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+.z-deepth {
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/* line 36, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+.z-deepth-2 {
+  box-shadow: 0 16px 28px 0 rgba(0, 0, 0, 0.22), 0 25px 55px 0 rgba(0, 0, 0, 0.21);
+}
+/* line 40, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+img, iframe {
+  max-width: 100%;
+}
+/* line 44, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+.mgt50 {
+  margin-top: 50px;
+}
+/* line 48, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+header {
+  background: #ee6e73 url('../images/bgheader.png') no-repeat 0 0;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+/* line 51, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+header .top {
+  padding: 10px 0;
+}
+/* line 53, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+/* line 54, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+header .top .logo .logo-title {
+  color: white;
+  font-weight: bold;
+  font-size: 22px;
+}
+/* line 60, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+header .top .login-info {
+  position: relative;
+  cursor: pointer;
+}
+/* line 63, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+header .top .login-info .name {
+  color: white;
+  margin: 0 10px;
+}
+/* line 67, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+header .top .login-info > i.fa {
+  color: white;
+  cursor: pointer;
+}
+/* line 71, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+header .top .login-info .action {
+  display: none;
+  position: absolute;
+  z-index: 10;
+  right: 0;
+  top: 60px;
+}
+/* line 77, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+header .top .login-info .action ul {
+  background: #424242;
+  border-radius: 3px;
+}
+/* line 80, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+/* line 81, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+header .top .login-info .action ul li a {
+  display: block;
+  padding: 5px 10px;
+  color: white;
+}
+/* line 85, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+header .top .login-info .action ul li a i.fa {
+  margin-right: 5px;
+}
+/* line 88, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+header .top .login-info .action ul li a:hover {
+  color: #9e9e9e;
+  transition: all 0.3s;
+}
+/* line 97, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+/* line 98, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+header .top .back-home a {
+  padding: 5px 10px;
+  background: #ffc107;
+  color: white;
+  font-weight: bold;
+  line-height: 50px;
+}
+/* line 110, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+.sidebar {
+  margin-top: 30px;
+  padding: 20px 0;
+  background: #ee6e73;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  border: solid 1px #9e9e9e;
+  box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.3);
+  overflow: auto;
+}
+/* line 119, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+/* line 120, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+/* line 121, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+.sidebar > ul > li > a {
+  display: block;
+  color: white;
+  font-weight: bold;
+  padding: 10px 30px;
+}
+/* line 126, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+.sidebar > ul > li > a:hover {
+  color: #424242;
+  transition: 0.3s;
+}
+/* line 130, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+.sidebar > ul > li > a i {
+  margin-right: 10px;
+}
+/* line 133, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+.sidebar > ul > li > a .fa-chevron-down {
+  vertical-align: middle;
+  font-size: 10px;
+  margin-top: 4px;
+  margin-right: -10px;
+}
+/* line 141, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+.sidebar > ul .sub {
+  padding-left: 60px;
+  list-style-type: none;
+}
+/* line 144, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+/* line 145, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+.sidebar > ul .sub li a {
+  padding: 5px 0;
+  display: block;
+  color: white;
+  font-size: 14px;
+}
+/* line 150, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+.sidebar > ul .sub li a:hover {
+  color: #424242;
+  transition: 0.3s;
+}
+/* line 160, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+.content {
+  padding: 30px 20px;
+}
+/* line 162, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+/* line 163, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+.content .list-news-catalog .panel-heading {
+  font-size: 15px;
+  background: #ee6e73;
+  color: white;
+  font-weight: bold;
+}
+/* line 168, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+/* line 170, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+.content .list-news-catalog .panel-heading .pull-right a {
+  background: #ffc107;
+  padding: 5px 10px;
+  color: white;
+}
+/* line 175, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+.content .list-news-catalog .panel-heading .pull-right a i {
+  margin-right: 5px;
+}
+/* line 179, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+.content .list-news-catalog .panel-heading .pull-right a.filter {
+  background: #9ccc65;
+  margin-right: 10px;
+}
+/* line 185, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+/* line 186, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+/* line 187, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+.content .list-news-catalog table .action i {
+  margin-right: 10px;
+  color: #424242;
+}
+/* line 190, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+.content .list-news-catalog table .action i:hover {
+  color: #9e9e9e;
+  transition: 0.2s;
+}
+/* line 197, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+/* line 198, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+/* line 199, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+.content .list-news-catalog .add-news-catalog form select {
+  margin: 5px 0;
+}
+/* line 202, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+.content .list-news-catalog .add-news-catalog form button.btn {
+  padding: 5px 15px;
+  font-size: 14px;
+  border-radius: 0;
+}
+/* line 207, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+.content .list-news-catalog .add-news-catalog form #image {
+  width: 40% !important;
+  display: initial;
+}
+/* line 211, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+.content .list-news-catalog .add-news-catalog form .iframe-btn {
+  background: #424242;
+  color: white;
+  border-radius: 0;
+  margin-left: 10px;
+  font-weight: bold;
+}
+/* line 219, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+.content .list-news-catalog .add-news-catalog form .addgal {
+  background: #ba68c8;
+  padding: 5px 10px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+/* line 227, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+.content .list-news-catalog .add-news-catalog form .addgal i {
+  margin-right: 5px;
+}
+/* line 231, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+.content .list-news-catalog .add-news-catalog form .test input {
+  width: 40% !important;
+  display: initial;
+}
+/* line 235, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+.content .list-news-catalog .add-news-catalog form .selectgal {
+  background: #9ccc65;
+}
+/* line 238, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+.content .list-news-catalog .add-news-catalog form .removegal {
+  background: #d32f2f;
+  color: white;
+  border-radius: 0;
+  margin-left: 10px;
+  font-weight: bold;
+  padding: 6px 12px;
+}
+/* line 250, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+/* line 251, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+.content .list-slideshow .panel-heading, .content .list-menu .panel-heading {
+  font-size: 15px;
+  background: #ee6e73;
+  color: white;
+  font-weight: bold;
+}
+/* line 256, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+/* line 257, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+.content .list-slideshow .panel-heading .pull-right a, .content .list-menu .panel-heading .pull-right a {
+  background: #ffc107;
+  padding: 5px 10px;
+  color: white;
+}
+/* line 262, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+.content .list-slideshow .panel-heading .pull-right a i, .content .list-menu .panel-heading .pull-right a i {
+  margin-right: 5px;
+}
+/* line 268, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+/* line 269, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+/* line 270, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+.content .list-slideshow table .action i, .content .list-menu table .action i {
+  margin-right: 10px;
+  color: #424242;
+}
+/* line 273, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+.content .list-slideshow table .action i:hover, .content .list-menu table .action i:hover {
+  color: #9e9e9e;
+  transition: 0.2s;
+}
+/* line 280, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+/* line 281, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+/* line 282, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+.content .list-slideshow .add-slideshow form select, .content .list-menu .add-slideshow form select {
+  margin: 5px 0;
+}
+/* line 285, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+.content .list-slideshow .add-slideshow form button.btn, .content .list-menu .add-slideshow form button.btn {
+  padding: 5px 15px;
+  font-size: 14px;
+  border-radius: 0;
+}
+/* line 293, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+/* line 294, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+.content .list-config .panel-heading, .content .list-seo .panel-heading, .content .list-intro .panel-heading, .content .list-contact .panel-heading {
+  font-size: 15px;
+  background: #ee6e73;
+  color: white;
+  font-weight: bold;
+}
+/* line 299, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+/* line 300, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+.content .list-config .panel-heading .pull-right a, .content .list-seo .panel-heading .pull-right a, .content .list-intro .panel-heading .pull-right a, .content .list-contact .panel-heading .pull-right a {
+  background: #ffc107;
+  padding: 5px 10px;
+  color: white;
+}
+/* line 305, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+.content .list-config .panel-heading .pull-right a i, .content .list-seo .panel-heading .pull-right a i, .content .list-intro .panel-heading .pull-right a i, .content .list-contact .panel-heading .pull-right a i {
+  margin-right: 5px;
+}
+/* line 311, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+/* line 312, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+.content .list-config .panel-body .row, .content .list-seo .panel-body .row, .content .list-intro .panel-body .row, .content .list-contact .panel-body .row {
+  margin-bottom: 20px !important;
+}
+/* line 314, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+.content .list-config .panel-body .row h4, .content .list-seo .panel-body .row h4, .content .list-intro .panel-body .row h4, .content .list-contact .panel-body .row h4 {
+  font-size: 14px;
+  font-weight: bold;
+}
+/* line 319, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+/* line 320, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+.content .list-config .panel-body form button.btn, .content .list-seo .panel-body form button.btn, .content .list-intro .panel-body form button.btn, .content .list-contact .panel-body form button.btn {
+  padding: 5px 15px;
+  font-size: 14px;
+  border-radius: 0;
+}
+/* line 326, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+.content .list-config .panel-body iframe, .content .list-seo .panel-body iframe, .content .list-intro .panel-body iframe, .content .list-contact .panel-body iframe {
+  max-width: 100%;
+  height: 300px;
+}
+/* line 333, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+/* line 334, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+/* line 335, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+.content .list-seo .panel-body .form-group {
+  margin-bottom: 40px !important;
+}
+/* line 341, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+.content #image, .content #image2, .content #image3 {
+  width: 40% !important;
+  display: initial;
+}
+/* line 345, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+.content .iframe-btn {
+  background: #424242;
+  color: white;
+  border-radius: 0;
+  margin-left: 10px;
+  font-weight: bold;
+}
+/* line 355, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+/* line 356, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+.dashboard .panel-heading {
+  font-weight: bold;
+  background: #ee6e73;
+  color: white;
+}
+/* line 361, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+/* line 362, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+.dashboard .panel-body dt, .dashboard .panel-body dd {
+  margin-bottom: 5px;
+}
+/* line 366, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+.dashboard .dashboard-info {
+  padding-left: 0;
+}
+/* line 369, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+.dashboard .dashboard-website {
+  padding-right: 0;
+}
+/* line 371, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+.dashboard .dashboard-website a {
+  color: #424242;
+}
+/* line 373, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+.dashboard .dashboard-website a i {
+  margin-left: 10px;
+}
+/* line 380, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+.login {
+  margin: 150px;
+}
+/* line 382, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+.login h1 {
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 30px;
+  color: #ffc107;
+  margin-bottom: 25px;
+}
+/* line 390, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+.login .error {
+  color: red;
+  text-align: center;
+}
+/* line 394, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+.login form {
+  width: 50%;
+  margin: auto;
+}
+/* line 397, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+.login form .form-group {
+  margin-bottom: 20px !important;
+}
+/* line 400, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+.login form label {
+  color: white;
+}
+/* line 403, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+.login form button {
+  border-radius: 0;
+  padding: 5px 20px;
+}
+/* line 410, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+/* line 411, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+/* line 412, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+.gallery .add-gallery button {
+  border-radius: 0;
+  border: 0;
+  background: #42a5f5;
+  font-weight: bold;
+}
+/* line 418, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+.gallery .add-gallery button:hover {
+  background: #42a5f5;
+}
+/* line 421, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+.gallery .add-gallery button i {
+  margin-right: 5px;
+}
+/* line 425, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+.gallery .add-gallery .addgal {
+  background: #ba68c8;
+  padding: 5px 10px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+/* line 432, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+.gallery .add-gallery .addgal i {
+  margin-right: 5px;
+}
+/* line 436, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+.gallery .add-gallery .test input {
+  width: 40% !important;
+  display: initial;
+}
+/* line 440, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+.gallery .add-gallery .selectgal {
+  background: #9ccc65;
+}
+/* line 443, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+.gallery .add-gallery .removegal {
+  background: #d32f2f;
+  color: white;
+  border-radius: 0;
+  margin-left: 10px;
+  font-weight: bold;
+  padding: 6px 12px;
+}
+/* line 455, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+.fancybox {
+  cursor: pointer;
+}
+/* line 459, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+.pagi {
+  padding: 30px 0;
+}
+/* line 461, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+.pagi a {
+  padding: 5px 10px;
+  margin: 0 5px;
+  background: #ffc107;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+}
+/* line 469, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+.pagi a.currentpage {
+  background: #ee6e73;
+}
+/* line 478, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+.filter {
+  padding: 10px;
+  background: #f3e5f5;
+}
+/* line 483, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+/* line 484, /home/khuong/domains/khuong.vinatechsolution.com/public_html/workshop/public/backend/sass/style.scss */
+.LoadMore a {
+  padding: 5px 10px;
+  background: #ffc107;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}

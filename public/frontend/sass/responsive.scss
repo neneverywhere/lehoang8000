@@ -1,0 +1,84 @@
+.header-mobi{
+	position: absolute;
+	right: 40px;
+	top: 80px;
+	z-index: 100;
+	i{
+		color: white;
+	}
+}
+
+@media (min-width: 993px) {
+	.header-mobi{
+		display: none;
+	}
+}
+
+@media (max-width: 992px) {
+	body{
+		background: #e0e0e0;
+	}
+	.home-catalog{
+    position: static;
+    padding: 30px 0;
+    .home-gallery{
+    	background: white;
+    }
+	}
+	.header{
+		padding: 10px 0;
+		position: static !important;
+	}
+}
+
+@media (max-width: 600px) {
+	h1{
+		font-size: 26px !important;
+	}
+	h2{
+		font-size: 20px !important;
+	}
+	.footer{
+		.fright{
+			text-align: center;
+		}
+	}
+	.news-catalog{
+		.list-news{
+			.item{
+				border-bottom: solid 1px #bdbdbd;
+			}
+			.img{
+				padding: 15px !important;
+			}
+		}
+	}
+	.product-catalog{
+		.list-product{
+			.item{
+				border-bottom: solid 1px #bdbdbd;
+			}
+		}
+	}
+	.cart{
+		.btn{
+			font-size: 12px;
+			padding: 5px;
+		}
+		#tablecart{
+			font-size: 12px;
+			thead, tbody{
+				tr{
+					td:nth-child(1), td:nth-child(3), td:nth-child(4),th:nth-child(1), th:nth-child(3), th:nth-child(4){
+						display: none;
+					}
+				}
+			}
+		}
+	}
+	.book{
+		table{
+			font-size: 12px;
+		}
+	}
+}

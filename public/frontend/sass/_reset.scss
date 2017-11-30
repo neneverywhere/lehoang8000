@@ -1,0 +1,28 @@
+img, iframe{
+	max-width: 100%;
+}
+
+a{
+	text-decoration: none !important;
+}
+
+.bold{
+	font-weight: bold;
+}
+
+.row{
+	margin: 0 !important;
+}
+
+.hoverable:hover{
+	box-shadow: 0 16px 28px 0 rgba(0,0,0,0.22),0 25px 55px 0 rgba(0,0,0,0.21);
+	transition: .2s;
+}
+
+.z-deepth{
+	box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.z-deepth-2{
+	box-shadow: 0 16px 28px 0 rgba(0,0,0,0.22),0 25px 55px 0 rgba(0,0,0,0.21);
+}

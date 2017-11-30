@@ -1,0 +1,58 @@
+.header{
+	position: absolute;
+	z-index: 1000000;
+	right: 50px;
+	top: 50px;
+	i{
+		color: $red;
+	}
+}
+
+#menu-mobi{
+	i.fa{
+		display: none;
+	}
+}
+
+@media (min-width: 992px) {
+	.header{
+		display: none;
+	}
+	.smobi{
+		display: none;
+	}
+}
+
+@media (max-width: 992px) {
+	.policy{
+		.item{
+			margin-bottom: 15px;
+		}
+	}
+	
+	.hmobi{
+		.sidebar,.hot-product,.support-online,.home-news{
+			display: none;
+		}
+	}
+
+	.smobi{
+		display: block;
+	}
+
+	.home-news{
+		margin-bottom: 30px;
+	}
+
+	.hidden-sm-down{
+		display: none;
+	}
+}
+
+@media (max-width: 400px) {
+	.footer-top{
+		.item+.item{
+			margin-top: 20px;
+		}
+	}
+}

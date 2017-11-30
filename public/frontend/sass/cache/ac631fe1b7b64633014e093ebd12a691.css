@@ -1,0 +1,838 @@
+/* compiled by scssphp v0.3.3 on Fri, 17 Nov 2017 01:18:08 +0000 (0.0966s) */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700&subset=vietnamese');
+/* line 1, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/_reset.scss */
+img, iframe {
+  max-width: 100%;
+}
+/* line 5, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/_reset.scss */
+a {
+  text-decoration: none !important;
+}
+/* line 9, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/_reset.scss */
+.bold {
+  font-weight: bold;
+}
+/* line 13, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/_reset.scss */
+.row {
+  margin: 0 !important;
+}
+/* line 17, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/_reset.scss */
+.hoverable:hover, .product .main .content .des .plus a:hover {
+  box-shadow: 0 16px 28px 0 rgba(0, 0, 0, 0.22), 0 25px 55px 0 rgba(0, 0, 0, 0.21);
+  transition: 0.2s;
+}
+/* line 22, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/_reset.scss */
+.z-deepth, header .header .menu > ul .has-sub .sub, header .header .menu > ul .has-sub .sub .has-sub2 .sub2 {
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/* line 26, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/_reset.scss */
+.z-deepth-2 {
+  box-shadow: 0 16px 28px 0 rgba(0, 0, 0, 0.22), 0 25px 55px 0 rgba(0, 0, 0, 0.21);
+}
+/* line 10, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+}
+/* line 16, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+/* line 17, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+header .header {
+  background: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+/* line 25, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+header .header .logo {
+  line-height: 48px;
+}
+/* line 28, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+header .header .menu {
+  padding: 0;
+}
+/* line 30, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+header .header .menu > ul {
+  margin-bottom: 0;
+}
+/* line 32, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+header .header .menu > ul > li {
+  padding: 0;
+}
+/* line 34, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+header .header .menu > ul > li > a {
+  display: block;
+  padding: 12px;
+  font-size: 16px;
+  color: white;
+  transition: 0.3s;
+  border-bottom: solid 2px rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+}
+/* line 42, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+header .header .menu > ul > li > a:hover {
+  color: #e0e0e0;
+  border-color: #e0e0e0;
+}
+/* line 48, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+header .header .menu > ul .has-sub {
+  position: relative;
+}
+/* line 50, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+header .header .menu > ul .has-sub .sub {
+  position: absolute;
+  text-align: left;
+  width: 200px;
+  display: none;
+  background: rgba(0, 0, 0, 0.8);
+}
+/* line 57, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+header .header .menu > ul .has-sub .sub > li {
+  padding: 0;
+  position: relative;
+}
+/* line 60, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+header .header .menu > ul .has-sub .sub > li > a {
+  color: white;
+  padding: 7px 10px;
+  font-weight: bold;
+  display: block;
+  transition: 0.2s;
+  cursor: pointer;
+}
+/* line 68, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+header .header .menu > ul .has-sub .sub > li > a:hover {
+  background: white;
+  color: #000;
+}
+/* line 76, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+header .header .menu > ul .has-sub .sub .has-sub2 {
+  position: relative;
+}
+/* line 78, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+header .header .menu > ul .has-sub .sub .has-sub2 .sub2 {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.8);
+  width: 200px;
+  right: 0;
+  margin-right: -200px;
+  top: 0;
+  display: none;
+}
+/* line 87, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+header .header .menu > ul .has-sub .sub .has-sub2 .sub2 > li {
+  padding: 0;
+  position: relative;
+}
+/* line 90, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+header .header .menu > ul .has-sub .sub .has-sub2 .sub2 > li > a {
+  color: white;
+  padding: 7px 10px;
+  font-weight: bold;
+  display: block;
+  transition: 0.3s;
+  cursor: pointer;
+}
+/* line 97, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+header .header .menu > ul .has-sub .sub .has-sub2 .sub2 > li > a:hover {
+  background: white;
+  color: #000;
+}
+/* line 104, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+/* line 105, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+header .header .menu > ul .has-sub .sub .has-sub2:hover .sub2 {
+  display: block;
+}
+/* line 111, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+/* line 112, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+header .header .menu > ul .has-sub:hover .sub {
+  display: block;
+}
+/* line 119, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+/* line 120, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+header .header .social ul {
+  margin-bottom: 0;
+  line-height: 48px;
+}
+/* line 123, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+header .header .social ul li {
+  padding: 0 10px;
+}
+/* line 125, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+header .header .social ul li a {
+  color: white;
+  transition: 0.3s;
+}
+/* line 128, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+header .header .social ul li a:hover {
+  color: #e0e0e0;
+}
+/* line 131, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+header .header .social ul li a i {
+  vertical-align: middle;
+  font-size: 20px;
+}
+/* line 142, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.home-catalog {
+  position: fixed;
+  bottom: 10%;
+  left: 0;
+  right: 0;
+  z-index: 5;
+}
+/* line 148, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.home-catalog .home-gallery {
+  background: rgba(236, 236, 236, 0.6);
+}
+/* line 151, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.home-catalog .home-gallery img {
+  transition: 0.5s;
+}
+/* line 153, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.home-catalog .home-gallery img:hover {
+  transform: scale(1.2);
+}
+/* line 160, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.product-catalog, .product {
+  margin-top: 48px;
+  margin-bottom: 30px;
+  padding: 30px 0;
+}
+/* line 164, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.product-catalog .sidebar, .product .sidebar {
+  width: 165px;
+}
+/* line 166, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.product-catalog .sidebar > ul, .product .sidebar > ul {
+  margin-bottom: 0;
+}
+/* line 168, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.product-catalog .sidebar > ul > li, .product .sidebar > ul > li {
+  padding: 0;
+  /*a{
+   display: block;
+   padding: 5px 10px;
+   background: $primary-color;
+   font-weight: bold;
+   color: white;
+   transition: .3s;
+   }*/
+}
+/* line 178, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.product-catalog .sidebar > ul > li > a, .product .sidebar > ul > li > a {
+  display: block;
+  background: #000;
+  position: relative;
+  color: white;
+  transition: 0.6s;
+  padding: 5px 10px;
+  margin-bottom: 1px;
+  font-weight: bold;
+}
+/* line 187, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.product-catalog .sidebar > ul > li > a:focus, .product .sidebar > ul > li > a:focus {
+  outline: 0;
+}
+/* line 190, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.product-catalog .sidebar > ul > li > a:before, .product .sidebar > ul > li > a:before {
+  content: '';
+  display: block;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.2);
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  opacity: 0.5;
+  filter: blur(30px);
+  transform: translateX(-100px) skewX(-15deg);
+}
+/* line 203, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.product-catalog .sidebar > ul > li > a:after, .product .sidebar > ul > li > a:after {
+  content: '';
+  display: block;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.6);
+  width: 100%;
+  height: 100%;
+  left: 30px;
+  top: 0;
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100px) skewX(-15deg);
+}
+/* line 216, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.product-catalog .sidebar > ul > li > a:hover, .product .sidebar > ul > li > a:hover {
+  background: #ffab00;
+  cursor: pointer;
+}
+/* line 219, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.product-catalog .sidebar > ul > li > a:hover:before, .product .sidebar > ul > li > a:hover:before {
+  transform: translateX(300px) skewX(-15deg);
+  opacity: 0.6;
+  transition: 0.7s;
+}
+/* line 224, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.product-catalog .sidebar > ul > li > a:hover:after, .product .sidebar > ul > li > a:hover:after {
+  transform: translateX(300px) skewX(-15deg);
+  opacity: 1;
+  transition: 0.7s;
+}
+/* line 230, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.product-catalog .sidebar > ul > li > a i, .product .sidebar > ul > li > a i {
+  position: absolute;
+  right: 10px;
+  top: 8px;
+}
+/* line 237, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.product-catalog .sidebar > ul > li, .product .sidebar > ul > li {
+  position: relative;
+}
+/* line 239, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.product-catalog .sidebar > ul > li .sub, .product .sidebar > ul > li .sub {
+  display: none;
+}
+/* line 241, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.product-catalog .sidebar > ul > li .sub li, .product .sidebar > ul > li .sub li {
+  padding: 0;
+}
+/* line 243, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.product-catalog .sidebar > ul > li .sub li a, .product .sidebar > ul > li .sub li a {
+  display: block;
+  padding: 5px 15px;
+  color: white;
+  margin-bottom: 1px;
+  background: #ffab00;
+  transition: 0.3s;
+}
+/* line 250, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.product-catalog .sidebar > ul > li .sub li a:hover, .product .sidebar > ul > li .sub li a:hover {
+  text-decoration: underline !important;
+}
+/* line 259, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.product-catalog .main, .product .main {
+  padding: 0;
+}
+/* line 261, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+/* line 262, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.product-catalog .main .list-product .item, .product .main .list-product .item {
+  text-align: center;
+  padding: 15px;
+}
+/* line 265, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+/* line 266, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.product-catalog .main .list-product .item .des .name, .product .main .list-product .item .des .name {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+/* line 269, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.product-catalog .main .list-product .item .des .name a, .product .main .list-product .item .des .name a {
+  color: #676667;
+  transition: 0.3s;
+}
+/* line 272, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.product-catalog .main .list-product .item .des .name a:hover, .product .main .list-product .item .des .name a:hover {
+  color: #000;
+}
+/* line 277, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.product-catalog .main .list-product .item .des .price, .product .main .list-product .item .des .price {
+  color: #ffab00;
+  margin-bottom: 0;
+}
+/* line 287, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+/* line 289, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+/* line 290, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.product .main .content {
+  padding: 30px 0;
+}
+/* line 292, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+/* line 293, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+/* line 294, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.product .main .content .img .large img {
+  width: 70%;
+  cursor: zoom-in;
+}
+/* line 299, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.product .main .content .img .thumb {
+  padding: 10px;
+}
+/* line 301, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.product .main .content .img .thumb a {
+  width: 20%;
+  float: left;
+  margin: 2px;
+  cursor: pointer;
+}
+/* line 306, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.product .main .content .img .thumb a img {
+  opacity: 0.6;
+  border: solid 1px white;
+}
+/* line 309, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.product .main .content .img .thumb a img.active {
+  opacity: 1;
+  border: solid 1px #000;
+}
+/* line 317, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+/* line 318, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.product .main .content .des .name {
+  margin-top: 0;
+  font-weight: bold;
+  font-size: 25px;
+}
+/* line 323, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.product .main .content .des .price {
+  font-size: 18px;
+  font-weight: bold;
+}
+/* line 326, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.product .main .content .des .price span {
+  color: #ffab00;
+}
+/* line 330, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+/* line 331, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.product .main .content .des .caption p {
+  text-align: justify;
+}
+/* line 335, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.product .main .content .des .plus {
+  margin-top: 50px;
+}
+/* line 337, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.product .main .content .des .plus a {
+  padding: 5px 15px;
+  background: #000;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 18px;
+}
+/* line 345, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.product .main .content .des .plus a i {
+  margin-right: 5px;
+}
+/* line 352, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.product .main .similar-product {
+  padding: 30px 0;
+}
+/* line 354, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.product .main .similar-product h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 0;
+  font-size: 18px;
+  padding: 5px 10px;
+  background: #000;
+  color: white;
+}
+/* line 363, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+/* line 364, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.product .main .similar-product .list .item {
+  overflow: hidden;
+}
+/* line 367, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.product .main .similar-product .list img {
+  transition: 0.3s;
+}
+/* line 369, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.product .main .similar-product .list img:hover {
+  transform: scale(1.2);
+  opacity: 0.8;
+}
+/* line 375, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.product .main .similar-product .owl-dots {
+  text-align: center;
+}
+/* line 377, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.product .main .similar-product .owl-dots .owl-dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background: grey;
+  border-radius: 100%;
+  margin: 10px 2px;
+  opacity: 0.8;
+}
+/* line 385, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.product .main .similar-product .owl-dots .owl-dot.active {
+  background: #ffab00;
+  opacity: 1;
+}
+/* line 395, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.news-catalog, .news {
+  margin-top: 48px;
+  margin-bottom: 30px;
+}
+/* line 398, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+/* line 399, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.news-catalog .list-news .item, .news .list-news .item {
+  padding: 20px 0;
+  border-bottom: solid 1px #e5e5e5;
+}
+/* line 402, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.news-catalog .list-news .item .des, .news .list-news .item .des {
+  padding: 0;
+}
+/* line 404, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.news-catalog .list-news .item .des .name, .news .list-news .item .des .name {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 18px;
+  margin-top: 0;
+}
+/* line 409, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.news-catalog .list-news .item .des .name a, .news .list-news .item .des .name a {
+  color: #000;
+}
+/* line 413, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+/* line 414, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.news-catalog .list-news .item .des .date i, .news .list-news .item .des .date i {
+  margin-right: 10px;
+}
+/* line 418, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.news-catalog .list-news .item .des .caption, .news .list-news .item .des .caption {
+  text-align: justify;
+}
+/* line 421, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+/* line 422, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.news-catalog .list-news .item .des .plus a, .news .list-news .item .des .plus a {
+  font-weight: bold;
+  color: #676667;
+  transition: 0.3s;
+}
+/* line 426, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.news-catalog .list-news .item .des .plus a:hover, .news .list-news .item .des .plus a:hover {
+  color: #000;
+  text-decoration: underline !important;
+}
+/* line 430, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.news-catalog .list-news .item .des .plus a i, .news .list-news .item .des .plus a i {
+  margin-left: 5px;
+}
+/* line 436, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.news-catalog .list-news .item .img, .news .list-news .item .img {
+  padding-right: 0;
+  padding-left: 30px;
+}
+/* line 439, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.news-catalog .list-news .item .img img, .news .list-news .item .img img {
+  border: solid 1px #000;
+}
+/* line 445, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.news-catalog .sidebar-news, .news .sidebar-news {
+  padding: 20px 15px;
+}
+/* line 447, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+/* line 448, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.news-catalog .sidebar-news .item h3, .news .sidebar-news .item h3 {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 17px;
+  margin-top: 0;
+}
+/* line 454, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.news-catalog .sidebar-news .item ul, .news .sidebar-news .item ul {
+  margin-bottom: 0;
+}
+/* line 456, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+/* line 457, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.news-catalog .sidebar-news .item ul li a, .news .sidebar-news .item ul li a {
+  display: block;
+  color: #000;
+  line-height: 20px;
+  margin: 5px 0;
+}
+/* line 462, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.news-catalog .sidebar-news .item ul li a i, .news .sidebar-news .item ul li a i {
+  margin-left: 5px;
+}
+/* line 465, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.news-catalog .sidebar-news .item ul li a:hover, .news .sidebar-news .item ul li a:hover {
+  text-decoration: underline !important;
+}
+/* line 472, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+/* line 473, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+/* line 474, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.news-catalog .sidebar-news .catalog ul a, .news .sidebar-news .catalog ul a {
+  font-size: 12px;
+}
+/* line 482, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+/* line 484, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.news .main {
+  padding: 20px 15px;
+}
+/* line 486, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.news .main h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #000;
+  font-size: 30px;
+  margin-top: 0;
+}
+/* line 493, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+/* line 494, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.news .main .date i {
+  margin-right: 10px;
+}
+/* line 498, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+/* line 499, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.news .main .content p {
+  text-align: justify;
+}
+/* line 506, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+/* line 507, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.webcrumbs ul {
+  margin-bottom: 0;
+  padding: 5px 15px;
+  background: #000;
+}
+/* line 511, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.webcrumbs ul li {
+  padding: 0 10px;
+  position: relative;
+}
+/* line 514, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.webcrumbs ul li a {
+  color: white;
+}
+/* line 516, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.webcrumbs ul li a:hover {
+  text-decoration: underline !important;
+}
+/* line 521, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.webcrumbs ul li:first-child {
+  padding-left: 0;
+}
+/* line 524, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.webcrumbs ul li + li:after {
+  content: '>';
+  position: absolute;
+  left: -4px;
+  color: white;
+}
+/* line 533, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+/* line 534, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+footer .footer {
+  background: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 20;
+  color: white;
+  padding: 5px 0;
+}
+/* line 543, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+/* line 544, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+footer .footer .fleft .address {
+  margin-bottom: 0;
+  font-weight: bold;
+}
+/* line 547, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+footer .footer .fleft .address img {
+  margin-right: 5px;
+}
+/* line 552, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+/* line 553, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+footer .footer .fmiddle .backlink {
+  margin-bottom: 0;
+}
+/* line 555, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+footer .footer .fmiddle .backlink li {
+  position: relative;
+}
+/* line 557, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+footer .footer .fmiddle .backlink li a {
+  color: white;
+  transition: 0.3s;
+  cursor: pointer;
+}
+/* line 561, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+footer .footer .fmiddle .backlink li a:hover {
+  text-decoration: underline !important;
+}
+/* line 566, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+footer .footer .fmiddle .backlink li + li:after {
+  content: '';
+  position: absolute;
+  border-right: solid 1px white;
+  height: 60%;
+  left: -2px;
+  top: 20%;
+}
+/* line 576, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+/* line 577, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+footer .footer .fright a {
+  color: white;
+  font-weight: bold;
+}
+/* line 580, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+footer .footer .fright a img {
+  margin-right: 10px;
+}
+/* line 588, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.pagi {
+  text-align: center;
+  padding: 20px 0;
+}
+/* line 591, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.pagi a {
+  padding: 5px 8px;
+  margin: 0 3px;
+  background: grey;
+  color: white;
+  font-weight: bold;
+}
+/* line 597, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.pagi a.currentpage {
+  background: #000;
+  cursor: not-allowed;
+}
+/* line 604, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.cart, .contact {
+  margin-top: 48px;
+  margin-bottom: 30px;
+  padding: 30px 0;
+}
+/* line 608, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.cart h1, .contact h1 {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #000;
+  margin-top: 0;
+  font-size: 30px;
+}
+/* line 615, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+/* line 616, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.cart .do .btn, .contact .do .btn {
+  border-radius: 0;
+}
+/* line 622, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.contact {
+  margin-bottom: 0;
+}
+/* line 625, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+/* line 626, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.contact form button {
+  background: #000;
+  color: white;
+  font-weight: bold;
+  border-radius: 0;
+}
+/* line 631, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.contact form button:hover {
+  color: grey;
+}
+/* line 634, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.contact form button i {
+  margin-right: 10px;
+}
+/* line 641, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.map {
+  margin-bottom: 30px;
+}
+/* line 645, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.book {
+  margin-top: 48px;
+  margin-bottom: 30px;
+  padding: 30px 0;
+}
+/* line 649, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.book h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #000;
+  font-size: 30px;
+  margin-top: 0;
+}
+/* line 656, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+/* line 657, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+/* line 658, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.book .frm-order form button {
+  margin-top: 10px;
+}
+/* line 661, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.book .frm-order form input {
+  margin-bottom: 10px;
+}
+/* line 668, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.thanks {
+  margin-top: 48px;
+  margin-bottom: 30px;
+  padding: 30px 0;
+}
+/* line 672, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.thanks h1 {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #000;
+  margin-top: 0;
+  font-size: 30px;
+}
+/* line 681, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.loader {
+  position: fixed;
+  display: none;
+  z-index: 1000;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  padding-top: 20%;
+  background: rgba(60, 52, 52, 0.7);
+}
+/* line 691, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.loader .spinner {
+  margin: 100px auto 0;
+  width: 70px;
+  text-align: center;
+}
+/* line 697, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.loader .spinner > div {
+  width: 18px;
+  height: 18px;
+  background-color: white;
+  border-radius: 100%;
+  display: inline-block;
+  -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+  animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+}
+/* line 708, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.loader .spinner .bounce1 {
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+}
+/* line 713, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.loader .spinner .bounce2 {
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
+}
+@-webkit-keyframes sk-bouncedelay {
+  /* line 719, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+  0%, 80%, 100% {
+    -webkit-transform: scale(0);
+  }
+  /* line 720, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+  40% {
+    -webkit-transform: scale(1);
+  }
+}
+@keyframes sk-bouncedelay {
+  /* line 724, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+  0%, 80%, 100% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  /* line 727, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+  40% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+/* line 734, /home/huntergr/public_html/demo.miliamedia.com/muaban.demo.miliamedia.com/public/frontend/sass/style.scss */
+.loader p {
+  margin-top: 20px;
+  color: white;
+}

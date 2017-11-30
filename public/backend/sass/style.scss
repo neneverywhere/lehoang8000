@@ -1,0 +1,493 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&subset=vietnamese');
+
+$primary-color: #ee6e73;
+$primary-dark-color: #00796b;
+$primary-light-color: #4db6ac;
+$secondary-color: #ffc107;
+$grey-color: #424242;
+$grey-light-color : #9e9e9e;
+$text-color: #424242;
+$yellow-color: #ffff00;
+
+body{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 14px;
+	color: #424242;
+}
+
+a{
+	text-decoration: none !important;
+}
+
+
+.row{
+	margin: 0 !important;
+}
+
+.hoverable:hover{
+	box-shadow: 0 16px 28px 0 rgba(0,0,0,0.22),0 25px 55px 0 rgba(0,0,0,0.21);
+	transition: .2s;
+}
+
+.z-deepth{
+	box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.z-deepth-2{
+	box-shadow: 0 16px 28px 0 rgba(0,0,0,0.22),0 25px 55px 0 rgba(0,0,0,0.21);
+}
+
+img, iframe{
+	max-width: 100%;
+}
+
+.mgt50{
+	margin-top: 50px;
+}
+
+header{
+	background: $primary-color url('../images/bgheader.png') no-repeat 0 0;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+	.top{
+		padding: 10px 0;
+		.logo{
+			.logo-title{
+				color: white;
+				font-weight: bold;
+				font-size: 22px;
+			}
+		}
+		.login-info{
+			position: relative;
+			cursor: pointer;
+			.name{
+				color: white;
+				margin: 0 10px;
+			}
+			&>i.fa{
+				color: white;
+				cursor: pointer;
+			}
+			.action{
+				display: none;
+				position: absolute;
+				z-index: 10;
+				right: 0;
+				top: 60px;
+				ul{
+					background: $grey-color;
+					border-radius: 3px;
+					li{
+						a{
+							display: block;
+							padding: 5px 10px;
+							color: white;
+							i.fa{
+								margin-right: 5px;
+							}
+							&:hover{
+								color: $grey-light-color;
+								transition: all .3s;
+							}
+						}
+					}
+				}
+			}
+		}
+		.back-home{
+			a{
+				padding: 5px 10px;
+				background: $secondary-color;
+				color: white;
+				font-weight: bold;
+				line-height: 50px;
+				@extend .hoverable;
+			}
+		}
+	}
+}
+
+.sidebar{
+	margin-top: 30px;
+	padding: 20px 0;
+	background: $primary-color;
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
+	border: solid 1px $grey-light-color;
+	box-shadow: 0 16px 24px 2px rgba(0,0,0,0.14),0 6px 30px 5px rgba(0,0,0,0.12),0 8px 10px -5px rgba(0,0,0,0.3);
+	overflow: auto;
+	&>ul{
+		&>li{
+			&>a{
+				display: block;
+				color: white;
+				font-weight: bold;
+				padding: 10px 30px;
+				&:hover{
+					color: $grey-color;
+					transition: .3s;
+				}
+				i{
+					margin-right: 10px;
+				}
+				.fa-chevron-down{
+					vertical-align: middle;
+					font-size: 10px;
+					margin-top: 4px;
+					margin-right: -10px;
+				}
+			}
+		}
+		.sub{
+			padding-left: 60px;
+			list-style-type: none;
+			li{
+				a{
+					padding: 5px 0;
+					display: block;
+					color: white;
+					font-size: 14px;
+					&:hover{
+						color: $grey-color;
+						transition: .3s;
+					}
+				}
+			}
+		}
+	}
+}
+
+.content{
+	padding: 30px 20px;
+	.list-news-catalog{
+		.panel-heading{
+			font-size: 15px;
+			background: $primary-color;
+			color: white;
+			font-weight: bold;
+			.pull-right{
+				//margin-right: 15px;
+				a{
+					background: $secondary-color;
+					padding: 5px 10px;
+					color: white;
+					@extend .hoverable;
+					i{
+						margin-right: 5px;
+					}
+				}
+				a.filter{
+					background: #9ccc65;
+					margin-right: 10px;
+				}
+			}
+		}
+		table{
+			.action{
+				i{
+					margin-right: 10px;
+					color: $text-color;
+					&:hover{
+						color: $grey-light-color;
+						transition: 0.2s;
+					}
+				}
+			}
+		}
+		.add-news-catalog{
+			form{
+				select{
+					margin: 5px 0;
+				}
+				button.btn{
+					padding: 5px 15px;
+					font-size: 14px;
+					border-radius: 0;
+				}
+				#image{
+					width: 40% !important;
+					display: initial;
+				}
+				.iframe-btn{
+					background: $grey-color;
+					color: white;
+					border-radius: 0;
+					margin-left: 10px;
+					font-weight: bold;
+					@extend .hoverable;
+				}
+				.addgal{
+					background: #ba68c8;
+					padding: 5px 10px;
+					color: white;
+					font-weight: bold;
+					@extend .hoverable;
+					cursor: pointer;
+					margin-bottom: 30px;
+					i{
+						margin-right: 5px;
+					}
+				}
+				.test input{
+					width: 40% !important;
+				    display: initial;
+				}
+				.selectgal{
+					background: #9ccc65;
+				}
+				.removegal{
+					background: #d32f2f;
+				    color: white;
+				    border-radius: 0;
+				    margin-left: 10px;
+				    font-weight: bold;
+				    @extend .hoverable;
+				    padding: 6px 12px;
+				}
+			}
+		}
+	}
+	.list-slideshow, .list-menu{
+		.panel-heading{
+			font-size: 15px;
+			background: $primary-color;
+			color: white;
+			font-weight: bold;
+			.pull-right{
+				a{
+					background: $secondary-color;
+					padding: 5px 10px;
+					color: white;
+					@extend .hoverable;
+					i{
+						margin-right: 5px;
+					}
+				}
+			}
+		}
+		table{
+			.action{
+				i{
+					margin-right: 10px;
+					color: $text-color;
+					&:hover{
+						color: $grey-light-color;
+						transition: 0.2s;
+					}
+				}
+			}
+		}
+		.add-slideshow{
+			form{
+				select{
+					margin: 5px 0;
+				}
+				button.btn{
+					padding: 5px 15px;
+					font-size: 14px;
+					border-radius: 0;
+				}
+			}
+		}
+	}
+	.list-config, .list-seo, .list-intro, .list-contact{
+		.panel-heading{
+			font-size: 15px;
+			background: $primary-color;
+			color: white;
+			font-weight: bold;
+			.pull-right{
+				a{
+					background: $secondary-color;
+					padding: 5px 10px;
+					color: white;
+					@extend .hoverable;
+					i{
+						margin-right: 5px;
+					}
+				}
+			}
+		}
+		.panel-body{
+			.row{
+				margin-bottom: 20px !important;
+				h4{
+					font-size: 14px;
+					font-weight: bold;
+				}
+			}
+			form{
+				button.btn{
+					padding: 5px 15px;
+					font-size: 14px;
+					border-radius: 0;
+				}
+			}
+			iframe{
+				max-width: 100%;
+				height: 300px;
+			}
+		}
+	}
+
+	.list-seo{
+		.panel-body{
+			.form-group{
+				margin-bottom: 40px !important;
+			}
+		}
+	}
+
+	#image, #image2, #image3{
+		width: 40% !important;
+		display: initial;
+	}
+	.iframe-btn{
+		background: $grey-color;
+		color: white;
+		border-radius: 0;
+		margin-left: 10px;
+		font-weight: bold;
+		@extend .hoverable;
+	}
+}
+
+.dashboard{
+	.panel-heading{
+		font-weight: bold;
+		background: $primary-color;
+		color: white;
+	}
+	.panel-body{
+		dt,dd{
+			margin-bottom: 5px;
+		}
+	}
+	.dashboard-info{
+		padding-left: 0;
+	}
+	.dashboard-website{
+		padding-right: 0;
+		a{
+			color: $text-color;
+			i{
+				margin-left: 10px;
+			}
+		}
+	}
+}
+
+.login{
+	margin: 150px;
+	h1{
+		text-align: center;
+		font-weight: bold;
+		text-transform: uppercase;
+		font-size: 30px;
+		color: $secondary-color;
+		margin-bottom: 25px;
+	}
+	.error{
+		color: red;
+		text-align: center;
+	}
+	form{
+		width: 50%;
+		margin: auto;
+		.form-group{
+			margin-bottom: 20px !important;
+		}
+		label{
+			color: white;
+		}
+		button{
+			border-radius: 0;
+			padding: 5px 20px;
+		}
+	}
+}
+
+.gallery{
+	.add-gallery{
+		button{
+			border-radius: 0;
+			border: 0;
+			background: #42a5f5;
+			@extend .hoverable;
+			font-weight: bold;
+			&:hover{
+				background: #42a5f5;
+			}
+			i{
+				margin-right: 5px;
+			}
+		}
+		.addgal{
+			background: #ba68c8;
+			padding: 5px 10px;
+			color: white;
+			font-weight: bold;
+			@extend .hoverable;
+			cursor: pointer;
+			i{
+				margin-right: 5px;
+			}
+		}
+		.test input{
+			width: 40% !important;
+		    display: initial;
+		}
+		.selectgal{
+			background: #9ccc65;
+		}
+		.removegal{
+			background: #d32f2f;
+		    color: white;
+		    border-radius: 0;
+		    margin-left: 10px;
+		    font-weight: bold;
+		    @extend .hoverable;
+		    padding: 6px 12px;
+		}
+	}
+}
+
+.fancybox{
+	cursor: pointer;
+}
+
+.pagi{
+	padding: 30px 0;
+	a{
+		padding: 5px 10px;
+		margin: 0 5px;
+		background: $secondary-color;
+		color: white;
+		font-weight: bold;
+		border-radius: 5px;
+	}
+	a.currentpage{
+		background: $primary-color;
+	}
+}
+
+.fancybox-inner{
+	//height: 500px !important;
+}
+
+.filter{
+	padding: 10px;
+	background: #f3e5f5;
+}
+
+.LoadMore{
+	a{
+		padding: 5px 10px;
+		background: $secondary-color;
+		color: white;
+		cursor: pointer;
+		@extend .hoverable;
+		font-weight: bold;
+	}
+}
+
