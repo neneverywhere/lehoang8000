@@ -48,10 +48,11 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = '119.81.246.241';
-$db['default']['username'] = 'huntergr_muaban';
-$db['default']['password'] = 'Dai123!@#';
-$db['default']['database'] = 'huntergr_muaban';
+
+$db['default']['hostname'] = 'ds119436.mlab.com:19436/lehoang8000';
+$db['default']['username'] = 'lehoang8000';
+$db['default']['password'] = 'ledai123';
+$db['default']['database'] = 'lehoang8000';
 $db['default']['dbdriver'] = 'mysqli';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;
