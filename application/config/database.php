@@ -49,10 +49,10 @@ $active_group = 'default';
 $active_record = TRUE;
 
 
-$db['default']['hostname'] = 'ds119436.mlab.com:19436/lehoang8000';
+$db['default']['hostname'] = '104.199.165.97';
 $db['default']['username'] = 'lehoang8000';
 $db['default']['password'] = 'ledai123';
-$db['default']['database'] = 'lehoang8000';
+$db['default']['database'] = 'lehoang';
 $db['default']['dbdriver'] = 'mysqli';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;
