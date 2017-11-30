@@ -23,7 +23,7 @@
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://muaban.demo.miliamedia.com';
+$config['base_url'] = 'http://lehoang8000.herokuapp.com';
 $config['frontend_url']= $config['base_url'].'/public/raw/';
 
 /*
